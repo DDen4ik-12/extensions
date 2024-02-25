@@ -86,7 +86,10 @@
           },
         ],
         menus: {
-          posType: ["x", "y"],
+          posType: {
+            acceptReporters: true,
+            items: ["x", "y"]
+          },
         },
       };
     }
